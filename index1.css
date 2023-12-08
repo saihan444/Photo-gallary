@@ -128,6 +128,7 @@ nav ul li a:hover{
     border-radius: 25px;
     align-items: center;
     cursor: pointer;
+    border: none;
     /* position: absolute;
     top: 63rem;
     left: 49rem; */
@@ -166,6 +167,7 @@ width: 80%;
     width:9rem;
     border-radius: 25px;
     margin-left: 50rem;
+    border: none;
 }
  #ids:hover{
     color: azure;
@@ -221,8 +223,9 @@ width: 80%;
         border-radius: 25px;
         cursor: pointer;
         transition: .3s ease;
+        border: none;
     }
-    #read:hover{
+     #read:hover{
         color: white;
         background-color: #4f4a45ce;
     }
@@ -252,7 +255,7 @@ width: 80%;
                     left: 49rem;
                     top: 17rem;
                     font-family: cursive;
-                    -webkit-text-stroke: 1px #dde1f8;
+                  
                 }
                 #ids {
                     height: 5vh;
@@ -323,7 +326,7 @@ width: 80%;
                     left: 44rem;
                     top: 16rem;
                     font-family: cursive;
-                    -webkit-text-stroke: 1px #dde1f8;
+                    
                 }
                 #ids {
                     height: 5vh;
@@ -342,7 +345,7 @@ width: 80%;
                     left: 41rem;
                     top: 13rem;
                     font-family: cursive;
-                    -webkit-text-stroke: 1px #dde1f8;
+                   
                 }
                 span {
                     color: #31304D;
@@ -361,7 +364,21 @@ width: 80%;
                     left: 38rem;
                     top: 11rem;
                     font-family: cursive;
-                    -webkit-text-stroke: 1px #dde1f8;
+                   
+                }
+                .about2 img {
+                    height: 44vh;
+                    
+                }
+                #blog1 {
+                    font-size: 37px;
+                   
+                }
+                #abt {
+                    text-align: center;
+                    font-family: cursive;
+                    font-size: 33px;
+                    margin: 35px;
                 }
                 #ids {
                     height: 4vh;
@@ -386,7 +403,7 @@ width: 80%;
                     left: 37rem;
                     top: 11rem;
                     font-family: cursive;
-                    -webkit-text-stroke: 1px #dde1f8;
+                    
                     font-size: 14px;
                 }
                 #abt {
@@ -400,6 +417,9 @@ width: 80%;
                     margin-left: 27rem;
                     margin-top: 12px;
                 }
+                #blog1 {
+                 font-size: 35px;
+                    }
                   #blog {
                     text-align: center;
                     font-size: 33px;
@@ -408,6 +428,10 @@ width: 80%;
                 }
                 .foot {
                     font-size: 13px;
+                }
+                .about2 img {
+                    height: 43vh;
+                    
                 }
             }
             @media(max-width:800px){
@@ -561,6 +585,9 @@ width: 80%;
                    #clt{
                     font-size: 22px;
                    }
+                   #blog1 {
+                   font-size: 29px;
+                }
                    #blog {
                     font-size: 22px;
                 }
@@ -603,6 +630,11 @@ width: 80%;
                     @media(max-width:550px){
                         .para {
                             left: 24rem;
+                        }
+                        .text {
+                            font-family: cursive;
+                            width: 80%;
+                            padding-left: 27px;
                         }
                         #ids {
                             margin-left: 11rem;
@@ -663,9 +695,7 @@ width: 80%;
                         #btn {
                             width: 50%;
                         }
-
-                     
-                     .text {
+                        .text {
                         font-family: cursive;
                         width: 80%;
                         padding-left: 23px;
@@ -718,6 +748,66 @@ width: 80%;
                         top: 6rem;
                         font-size: 9px;
                     }
-                    
+                   }
+                    @media(max-width:350px){ 
+                         h1 {
+                        margin-left: 5px;
+                        font-size: 13px;
+                    }
+                    .about2 img {
+                         height: 26vh;
+                        border-radius: 1000px 500px 500px 1000px;
+                        margin: 12px;
+                    }
+                    .blogs img {
+                        
+                        height: 23vh;
+                        width: 60%;
+                    }
+                    #blog1 {
+                        text-align: center;
+                        font-size: 26px;
+                        font-family: cursive;
+                        margin: 30px;
+                    }  
+                    .para1 img {
+                        height: 24vh;
+                    }
+                    #btn{
+                        display: none;
+                    } 
+                    .para1 img {
+                        height: 22vh;
+                    }
+                }
+                @media(max-width:300px){
+                    .text {
+                       padding-left: 27px;
+                    }
+                    h2 {
+                        color: black;
+                        font-size: 9px;
+                        font-weight: 1000rem;
+                    }
+                    .para {
+                        left: 13rem;
+                        top: 5rem;
+                        font-size: 9px;
+                    }
+                    .para {
+                        left: 13rem;
+                        top: 5rem;
+                        font-size: 9px;
+                    }
+                    .text p {
+                        font-size: 7px;
+                    }
+                    .blogs img {
+                        height: 20vh;
+                        width: 60%;
+                    }
+                    .cltimage img {
+                        height: 17vh;
+                    }
                 }
               
