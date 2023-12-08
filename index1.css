@@ -780,6 +780,31 @@ width: 80%;
                         height: 22vh;
                     }
                 }
+                @media(max-width:390px){
+                    h2 {
+                      
+                        font-size: 10px;
+                       
+                    }
+                    .para {
+                        left: 17rem;
+                        top: 6rem;
+                        font-size: 9px;
+                    }
+                    .para1 img {
+                        height: 25vh;
+                    }
+                    .about2 img {
+                        height: 30vh;
+                    }
+                    .cltimage img {
+                        height: 20vh;
+                    }
+                    .blogs img {
+                        height: 28vh;
+                        width: 60%;
+                    }
+                }
                 @media(max-width:300px){
                     .text {
                        padding-left: 27px;
